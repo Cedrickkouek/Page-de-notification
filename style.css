@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,500;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: hsl(210, 60%, 98%);
+    font-size: 16px;
+    color: hsl(219, 12%, 42%);
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 860px;
+}
+
+.main {
+    background-color: #FFF;
+    padding: 40px 30px 10px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 26px -13px rgba(0, 0, 0, .26);
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+p.title-text {
+    color: hsl(224, 21%, 14%);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+p.number {
+    color: #FFF;
+    background-color: hsl(219, 85%, 26%);
+    padding: 3px 13px;
+    border-radius: 5px;
+    font-weight: 800;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+p.notif {
+    font-size: 18px;
+}
+
+.markas {
+    text-decoration: none;
+    color: hsl(219, 12%, 42%);
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.box-notif {
+    padding: 17px;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.unread {
+    background-color: hsl(210, 80%, 98%);
+    border-radius: 15px;
+}
+
+.avatar img {
+    width: 60px;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.nom {
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+}
+
+a.post {
+    color: hsl(219, 12%, 42%);
+    font-weight: 800;
+}
+
+a.chess {
+    font-weight: 800;
+    color: hsl(219, 85%, 26%);
+}
+
+a.nom:hover {
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+
+a.post:hover {
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+
+a.markas:hover {
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+
+span.dot {
+    display: inline-block;
+    background-color: hsl(1, 90%, 64%);
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+
+.message {
+    border: 2px solid hsl(205, 33%, 90%);
+    padding: 12px;
+    font-size: 18px;
+    margin-top: 13px;
+    border-radius: 15px;
+}
+
+.hasmsg {
+    align-items: flex-start;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.hascom {
+    justify-content: space-between;
+}
+
+.chesspic img {
+    width: 60px;
+}
+
+p.time {
+    margin-top: 7px;
+}
+
+.attribution {
+    font-weight: 800;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 35%;
+}
+
+p.attribution {
+    color: black;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(1, 90%, 64%);
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .container {
+        margin: 20px auto;
+    }
+
+    .main {
+        margin: 10px;
+        padding: 20px 15px 0;
+    }
+}
